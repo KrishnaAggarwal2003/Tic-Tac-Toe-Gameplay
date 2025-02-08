@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding:0;
+}  /* For adding custom styling in the document */
+
+body{
+    background-color: aqua;
+    text-align: center;
+}
+
+h1{
+    font-size: 35px;
+}
+
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.0vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1cap;
+    font-size: 8vmin;
+    color: red;
+    background-color: bisque;
+}
+
+#reset{
+    margin-top: 5cap;
+    background-color: blue;
+    color: white;
+    border-radius: 2cap;
+    height: 40px;
+    width: 150px;
+    font-size: medium;
+}
+
+#win_tag{
+    height: 100px;
+    width: auto;
+    font-size: medium;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size:xx-large;
+    display: flex; /*To bring the text into the center of the div box*/
+}
